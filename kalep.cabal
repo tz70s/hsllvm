@@ -18,6 +18,7 @@ executable kalep
   main-is:             Main.hs
   other-modules:       Kalep
                      , Kalep.Parser
+                     , Kalep.Lexer
                      , Kalep.Syntax
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5

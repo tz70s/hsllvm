@@ -1,5 +1,6 @@
 module Kalep.Syntax
-  ( Literal(..)
+  ( Name
+  , Literal(..)
   , Expr(..)
   , Stmt(..)
   , Op(..)
