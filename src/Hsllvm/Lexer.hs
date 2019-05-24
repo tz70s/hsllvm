@@ -1,4 +1,4 @@
-module Kalep.Lexer
+module Hsllvm.Lexer
   ( lexer
   , integer
   , double
@@ -16,7 +16,7 @@ import Text.Parsec hiding (string)
 import Text.Parsec.String (Parser)
 import Text.Parsec.Language (emptyDef)
 
-import Kalep.Syntax
+import Hsllvm.Syntax
 
 import qualified Text.Parsec.Expr as Ex
 import qualified Text.Parsec.Token as Token

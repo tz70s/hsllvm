@@ -1,4 +1,4 @@
-module Kalep.Syntax
+module Hsllvm.Syntax
   ( Name
   , Literal(..)
   , Expr(..)

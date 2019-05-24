@@ -1,4 +1,4 @@
-module Kalep.Parser
+module Hsllvm.Parser
   ( parseToplevel
   , parseExpr
   )
@@ -7,8 +7,8 @@ where
 import Text.Parsec hiding (string)
 import Text.Parsec.String (Parser)
 
-import Kalep.Syntax
-import Kalep.Lexer
+import Hsllvm.Syntax
+import Hsllvm.Lexer
 
 import qualified Text.Parsec.Expr as Ex
 

@@ -1,10 +1,10 @@
-module Kalep
+module Hsllvm
   ( compile
   , repl
   )
 where
 
-import Kalep.Parser
+import Hsllvm.Parser
 import System.IO
 
 compile :: IO ()
@@ -16,7 +16,7 @@ repl = do
   interact_
  where
   interact_ = do
-    putStr "kalep> "
+    putStr "Hsllvm> "
     line <- getLine
     case line of
       s | s == ":quit" || s == ":q" -> return ()
