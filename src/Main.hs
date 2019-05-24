@@ -1,5 +1,8 @@
 module Main where
 
+import Kalep
+
 main :: IO ()
 main = do
-  putStrLn "hello world"
+  putStrLn "Welcome to Kalep, this is a REPL mode."
+  repl
