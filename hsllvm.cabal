@@ -20,7 +20,14 @@ executable kalep
                      , Hsllvm.Parser
                      , Hsllvm.Lexer
                      , Hsllvm.Syntax
+                     , Hsllvm.Codegen
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5
                      , text
+                     , bytestring
+                     , containers
+                     , mtl
                      , parsec
+                     , llvm-hs
+                     , llvm-hs-pure
+                     
